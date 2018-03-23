@@ -66,7 +66,7 @@ class Point(object):
 
     def get_number_of_moves_made(self):
         count = 0
-        if self.x != Point.x or self.y != Point.y:
+        if Point.x != self.x or Point.y != self.y:
             count = count + 1
 
         return count
